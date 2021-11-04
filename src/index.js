@@ -1,5 +1,8 @@
 import React from "react";
 import {render} from 'react-dom'
-import Start from './components/start'
+// import Start from './components/start'
+// import App from './components/App'
+import Router from "./components/Router";
 
-render(<Start />, document.getElementById('root'))
+
+render(<Router/>, document.getElementById('root'))
