@@ -2,7 +2,6 @@ import React from "react";
 import restaurants from '../sample-restaurants'
 import '../css/style.css'
 
-console.log(restaurants);
 
 class Start extends React.Component {
     state = {
@@ -25,7 +24,7 @@ class Start extends React.Component {
 
     goToRest = () => {
         const {url} = this.state;
-        this.props.history.push(`/${url}`)
+        this.props.history.push(`/restaurant/${url}`)
     }
 
     render() {
